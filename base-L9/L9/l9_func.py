@@ -1,4 +1,4 @@
-def l9() -> None:
+def l9_print() -> None:
     """Display the L9 in the console."""
     print("L9")
 
@@ -8,7 +8,7 @@ def l9_advertising() -> None:
 
 def l9_lnineazer(message: str) -> str:
     """Transform the message into an L9 message."""
-    return f"/!\ L9 {"".join([char.upper() if index % 2 else char.lower() for index, char in enumerate(message)])} L9 /!\\"
+    return f"/!\\ L9 {"".join([char.upper() if index % 2 else char.lower() for index, char in enumerate(message)])} L9 /!\\"
 
 if __name__ == "__main__":
     l9()

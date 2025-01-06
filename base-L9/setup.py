@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.0.1"
+VERSION = "0.0.6"
 DESCRIPTION = "L9 Module"
 LONG_DESCRIPTION = "A package that allows you to display the L9 in the console, advertise the L9 services and transform a message into an L9 message."
 
