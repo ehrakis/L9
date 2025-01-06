@@ -19,5 +19,8 @@ setup(
             "Intended Audience :: Other Audience",
             "Programming Language :: Python :: 3",
             "Operating System :: Microsoft :: Windows",
-        ]
+        ],
+        project_urls={
+            "GitHub": "https://github.com/ehrakis/L9"
+        }
 )
